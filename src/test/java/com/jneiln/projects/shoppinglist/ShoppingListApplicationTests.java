@@ -1,10 +1,10 @@
-package com.jneiln.shoppinglist.shoppinglist;
+package com.jneiln.projects.shoppinglist;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShoppinglistApplicationTests {
+class ShoppingListApplicationTests {
 
 	@Test
 	void contextLoads() {
