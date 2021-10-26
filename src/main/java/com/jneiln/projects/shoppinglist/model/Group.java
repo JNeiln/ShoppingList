@@ -45,6 +45,22 @@ public class Group {
         this.name = name;
     }
 
+    public Set<ShoppingList> getShoppingLists() {
+        return shoppingLists;
+    }
+
+    public void setShoppingLists(Set<ShoppingList> shoppingLists) {
+        this.shoppingLists = shoppingLists;
+    }
+
+    public Set<User> getGroupUsers() {
+        return groupUsers;
+    }
+
+    public void setGroupUsers(Set<User> groupUsers) {
+        this.groupUsers = groupUsers;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
